@@ -8,8 +8,7 @@ import Users from './Users';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Users />
+    <App />
   </React.StrictMode>
 );
 

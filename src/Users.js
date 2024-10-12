@@ -1,9 +1,13 @@
 import React from 'react'
 
-function user() {
+// export function Users(){
+//    return <h1>Functional Components</h1>;
+// }
+
+
+function Users() {
   return (
-    <h1>Hello Users</h1>
+    <h1>Functional Components</h1>
   )
 }
-
-export default user
+export default Users;
