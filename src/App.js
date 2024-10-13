@@ -3,12 +3,15 @@ import './App.css';
 import Users from './Users';
 
 function App() {
+  let data = "welcome to Cyberspace"
+  const demo = () => {
+    data = "rakibul hassan"
+    alert(data)
+  }
   return (
     <div className="App">
-      <h1>Hello World!!</h1>
-      <Users />
-      <Users />
-      <Users />
+      <h1>{data}</h1>
+      <button onClick={demo}>Click for alert!</button>
     </div>
   );
 }
